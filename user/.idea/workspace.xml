@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4325928e-7670-4a5a-b33b-5f3383faefc7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/qmlSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/rCore.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bootloader/rustsbi-qemu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bootloader/rustsbi-qemu.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/.cargo/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/.idea/os.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/.idea/qmlSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/src/console.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/src/entry.asm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/src/lang_items.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/src/linker.ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/src/sbi.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/.rustc_info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/CACHEDIR.TAG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/.cargo-lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/.fingerprint/os-2b6ee09f315d44b9/bin-os" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/.fingerprint/os-2b6ee09f315d44b9/bin-os.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/.fingerprint/os-2b6ee09f315d44b9/dep-bin-os" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/.fingerprint/os-2b6ee09f315d44b9/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/.fingerprint/os-90ee035031192b05/bin-os" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/.fingerprint/os-90ee035031192b05/bin-os.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/.fingerprint/os-90ee035031192b05/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/.fingerprint/os-e18ee71c2848566b/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/.fingerprint/os-e18ee71c2848566b/test-bin-os" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/.fingerprint/os-e18ee71c2848566b/test-bin-os.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/deps/os-2b6ee09f315d44b9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/deps/os-2b6ee09f315d44b9.1tzdadw0urk0vwmx.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/deps/os-2b6ee09f315d44b9.25op5qhoficq5hic.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/deps/os-2b6ee09f315d44b9.2hbnvifgpw6f2c2o.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/deps/os-2b6ee09f315d44b9.2y8v8rxi6xgtr92s.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/deps/os-2b6ee09f315d44b9.355kp72ci1bxlf21.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/deps/os-2b6ee09f315d44b9.8jiz0geld7qxn5m.rcgu.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/deps/os-2b6ee09f315d44b9.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/incremental/os-2109a9x4ryjle/s-giqrj04m3g-d24c9q-13mdlg3qdgiro/1tzdadw0urk0vwmx.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/incremental/os-2109a9x4ryjle/s-giqrj04m3g-d24c9q-13mdlg3qdgiro/25op5qhoficq5hic.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/incremental/os-2109a9x4ryjle/s-giqrj04m3g-d24c9q-13mdlg3qdgiro/2hbnvifgpw6f2c2o.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/incremental/os-2109a9x4ryjle/s-giqrj04m3g-d24c9q-13mdlg3qdgiro/2y8v8rxi6xgtr92s.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/incremental/os-2109a9x4ryjle/s-giqrj04m3g-d24c9q-13mdlg3qdgiro/355kp72ci1bxlf21.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/incremental/os-2109a9x4ryjle/s-giqrj04m3g-d24c9q-13mdlg3qdgiro/8jiz0geld7qxn5m.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/incremental/os-2109a9x4ryjle/s-giqrj04m3g-d24c9q-13mdlg3qdgiro/dep-graph.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/incremental/os-2109a9x4ryjle/s-giqrj04m3g-d24c9q-13mdlg3qdgiro/query-cache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/incremental/os-2109a9x4ryjle/s-giqrj04m3g-d24c9q-13mdlg3qdgiro/work-products.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/incremental/os-2109a9x4ryjle/s-giqrj04m3g-d24c9q.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/os" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../os/target/debug/os.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="jpushktc" />
+  </component>
+  <component name="ProjectId" id="2MccXoyvGtMSoLyeVhz10INAa9J" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="run --package user --bin user" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="emulateTerminal" value="false" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="run" />
+      <option name="emulateTerminal" value="false" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4325928e-7670-4a5a-b33b-5f3383faefc7" name="Changes" comment="" />
+      <created>1678070353262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678070353262</updated>
+      <workItem from="1678070354623" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

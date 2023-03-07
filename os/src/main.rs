@@ -3,7 +3,10 @@
 #![no_main]
 
 use core::arch::global_asm;
+use crate::timer::set_next_trigger;
 
+#[path = "boards/qemu.rs"]
+mod board;
 mod config;
 #[macro_use]
 mod console;
@@ -13,6 +16,7 @@ mod sbi;
 mod sync;
 mod syscall;
 mod task;
+mod timer;
 mod trap;
 
 
@@ -36,6 +40,8 @@ pub fn rust_main() -> ! {
     println!("[kernel] Hello world");
     trap::init();
     loader::load_apps();
+    trap::enable_timer_interrupt();
+    set_next_trigger();
     task::run_first_task();
     panic!("Unreachable in rust_main");
 }

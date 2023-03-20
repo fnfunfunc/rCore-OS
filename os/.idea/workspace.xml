@@ -3,9 +3,12 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
@@ -15,7 +18,58 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4376633a-d83e-4972-b90b-57a2bd19134e" name="Changes" comment="" />
+    <list default="true" id="4376633a-d83e-4972-b90b-57a2bd19134e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mm/frame_allocator.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mm/heap_allocator.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mm/memory_set.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mm/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mm/page_table.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task/manager.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task/pid.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task/processor.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/bin/exit.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/bin/hello_world.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/bin/initproc.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/bin/matrix.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user/src/bin/user_shell.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/os.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.rs" beforeDir="false" afterPath="$PROJECT_DIR$/build.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boards/qemu.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/boards/qemu.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/link_app.S" beforeDir="false" afterPath="$PROJECT_DIR$/src/link_app.S" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linker-qemu.ld" beforeDir="false" afterPath="$PROJECT_DIR$/src/linker-qemu.ld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/loader.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/loader.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sbi.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/sbi.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syscall/fs.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/syscall/fs.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syscall/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/syscall/mod.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/syscall/process.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/syscall/process.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task/context.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/context.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/mod.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task/switch.asm" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/switch.asm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task/task.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/task.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trap/context.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/trap/context.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trap/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/trap/mod.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trap/trap.asm" beforeDir="false" afterPath="$PROJECT_DIR$/src/trap/trap.asm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../user/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../user/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../user/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/build.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/src/bin/00write_a.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/src/bin/01write_b.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/src/bin/02write_c.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/src/bin/03sleep.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/mm/address.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/src/console.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/console.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/src/linker.ld" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/linker.ld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user/src/syscall.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../user/src/syscall.rs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,30 +78,88 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="7vxbyidj" />
   </component>
+  <component name="MakefileLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="os" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="os" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2MUymd1huJVWsDzH4cy2VAVF4KO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/eternal/Program/Rust Projects/rCore/os&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;language.rust.cargo.check&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Makefile Target.run">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="command" value="run --package os --bin os" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -65,25 +177,22 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="command" value="run" />
-      <option name="emulateTerminal" value="false" />
-      <option name="channel" value="DEFAULT" />
-      <option name="requiredFeatures" value="true" />
-      <option name="allFeatures" value="false" />
-      <option name="withSudo" value="false" />
-      <option name="buildTarget" value="REMOTE" />
-      <option name="backtrace" value="SHORT" />
-      <envs />
-      <option name="isRedirectInput" value="false" />
-      <option name="redirectInputPath" value="" />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
+    <configuration name="run" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="run" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile Target.run" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="RustProjectSettings">
+    <option name="runExternalLinterOnTheFly" value="true" />
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -94,10 +203,18 @@
       <option name="presentableId" value="Default" />
       <updated>1677836615106</updated>
       <workItem from="1677836616434" duration="15000" />
+      <workItem from="1679216215856" duration="5486000" />
+      <workItem from="1679271016815" duration="490000" />
+      <workItem from="1679271518697" duration="9207000" />
+      <workItem from="1679281741308" duration="4688000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

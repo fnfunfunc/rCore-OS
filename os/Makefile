@@ -6,9 +6,9 @@ KERNEL_BIN := $(KERNEL_ELF).bin
 DISASM_TMP := target/$(TARGET)/$(MODE)/asm
 
 # BOARD
-BOARD		:= qemu
-SBI			?= rustsbi
-BOOTLOADER	:= ../bootloader/$(SBI)-$(BOARD).bin
+BOARD := qemu
+SBI ?= rustsbi
+BOOTLOADER := ../bootloader/$(SBI)-$(BOARD).bin
 
 # Building mode argument
 ifeq ($(MODE), release)
@@ -32,7 +32,6 @@ env:
 	cargo install cargo-binutils
 	rustup component add rust-src
 	rustup component add llvm-tools-preview
-	rustup target add riscv64gc-unknown-none-elf
 
 $(KERNEL_BIN): kernel
 	@$(OBJCOPY) $(KERNEL_ELF) --strip-all -O binary $@
@@ -56,6 +55,8 @@ disasm-vim: kernel
 	@rm $(DISASM_TMP)
 
 run: run-inner
+
+
 
 run-inner: build
 	@qemu-system-riscv64 \

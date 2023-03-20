@@ -1,9 +1,14 @@
 #![feature(panic_info_message)]
+#![feature(alloc_error_handler)]
 #![no_std]
 #![no_main]
 
+extern crate alloc;
+#[macro_use]
+extern crate bitflags;
+
 use core::arch::global_asm;
-use crate::timer::set_next_trigger;
+
 
 #[path = "boards/qemu.rs"]
 mod board;
@@ -12,9 +17,10 @@ mod config;
 mod console;
 mod lang_items;
 mod loader;
+mod mm;
 mod sbi;
 mod sync;
-mod syscall;
+pub mod syscall;
 mod task;
 mod timer;
 mod trap;
@@ -37,11 +43,16 @@ fn clear_bss() {
 #[no_mangle]
 pub fn rust_main() -> ! {
     clear_bss();
-    println!("[kernel] Hello world");
+    println!("[kernel] Hello, world!");
+    mm::init();
+    mm::remap_test();
+    task::add_initproc();
+    println!("after initproc!");
     trap::init();
-    loader::load_apps();
+    //trap::enable_interrupt();
     trap::enable_timer_interrupt();
-    set_next_trigger();
-    task::run_first_task();
-    panic!("Unreachable in rust_main");
+    timer::set_next_trigger();
+    loader::list_apps();
+    task::run_tasks();
+    panic!("Unreachable in rust_main!");
 }
